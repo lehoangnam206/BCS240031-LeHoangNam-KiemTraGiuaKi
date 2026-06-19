@@ -1,0 +1,7 @@
+.vs/
+.agents/
+**/bin/
+**/obj/
+*.user
+*.suo
+

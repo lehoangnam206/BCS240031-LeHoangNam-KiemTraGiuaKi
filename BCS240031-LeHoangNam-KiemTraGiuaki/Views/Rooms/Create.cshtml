@@ -1,0 +1,8 @@
+@model Room_BCS240031
+@{ ViewData["Title"] = "Thêm phòng"; }
+<h1>Thêm phòng</h1>
+<form asp-action="Create" method="post" class="card card-body form-card">
+    <partial name="_RoomForm" model="Model" />
+    <div class="mt-4"><button class="btn btn-primary">Lưu phòng</button> <a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a></div>
+</form>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

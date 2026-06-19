@@ -1,0 +1,3 @@
+@model string
+@{ ViewData["Title"] = "Thông báo"; }
+<div class="alert alert-danger"><h1 class="h4">Không thể thực hiện yêu cầu</h1><p class="mb-0">@Model</p></div><a asp-controller="Rooms" asp-action="Index" class="btn btn-outline-primary">Về danh sách phòng</a>
