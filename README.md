@@ -16,15 +16,19 @@ Bài kiểm tra giữa kỳ xây dựng bằng ASP.NET Core MVC và Entity Frame
 
 ### 1. Clone dự án
 
-```bash
 git clone https://github.com/lehoangnam206/BCS240031-LeHoangNam-KiemTraGiuaKi.git
 cd BCS240031-LeHoangNam-KiemTraGiuaKi
-2. Khởi tạo SQL Server LocalDB
+
+## 2. Khởi tạo SQL Server LocalDB
 sqllocaldb create MSSQLLocalDB
 sqllocaldb start MSSQLLocalDB
-3. Khôi phục package
+
+
+## 3. Khôi phục package
 dotnet restore
-4. Chạy dự án
+
+
+## 4. Chạy dự án
 dotnet run --project BCS240031-LeHoangNam-KiemTraGiuaki
 Hoặc mở file BCS240031-LeHoangNam-KiemTraGiuaki.slnx bằng Visual Studio và nhấn F5.
 Ứng dụng tự động tạo:
