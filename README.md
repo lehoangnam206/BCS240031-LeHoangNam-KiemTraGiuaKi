@@ -12,6 +12,8 @@ Bài kiểm tra giữa kỳ xây dựng bằng ASP.NET Core MVC và Entity Frame
 - SQL Server LocalDB
 - Kết nối Internet để hiển thị ảnh từ URL
 
+## link video: https://drive.google.com/drive/folders/1EU9NlQEh0j9waaPHF3e4Xsc87vjU4XqI?usp=drive_link
+
 ## Hướng dẫn chạy
 
 ### 1. Clone dự án
